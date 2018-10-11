@@ -9,8 +9,9 @@ RUN cp /home/node/chat-client/src/app/images/etc.jpg /home/node/chat-client/src/
 WORKDIR /home/node/chat-client
 
 EXPOSE 4200
-RUN pwd
+
 CMD cd /home/node/chat-client && \
+    cp /home/external/environment.ts src/environments/environment.ts && \
     npm start
 #CMD ['npm start']
 #ENTRYPOINT ['npm start']

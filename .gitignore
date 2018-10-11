@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+packages-lock.json
 # compiled output
 /dist
 /tmp
@@ -100,4 +100,3 @@ typings/
 
 # next.js build output
 .next
->>>>>>> 3e2d5925c9958bcc6d7474859229ee0b2cdf589a
