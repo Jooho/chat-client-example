@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --disable-host-check",
-    "build": "ng build",
+    "start": "ng serve  --optimization --host 0.0.0.0 --disableHostCheck true ",
+    "build": "ng build --prod --build-optimizer --aot ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

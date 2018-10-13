@@ -11,7 +11,8 @@ WORKDIR /home/node/chat-client
 EXPOSE 4200
 
 CMD cd /home/node/chat-client && \
-    cp /home/external/environment.ts src/environments/environment.ts && \
+    cp  /home/external/environment.ts  src/environments/environment.ts && \
     npm start
 #CMD ['npm start']
 #ENTRYPOINT ['npm start']
+    #cp  /home/external/environment.prod.ts  src/environments/environment.prod.ts && \
